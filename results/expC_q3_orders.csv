@@ -1,0 +1,9 @@
+order,algo,value,nodes,leaves,cutoffs,elapsed_ms
+lr,minimax,5,15,8,0,0.005
+lr,alphabeta,5,14,7,2,0.005
+rl,minimax,5,15,8,0,0.008
+rl,alphabeta,5,14,7,1,0.008
+best,minimax,5,15,8,0,0.009
+best,alphabeta,5,11,5,2,0.008
+worst,minimax,5,15,8,0,0.009
+worst,alphabeta,5,15,8,0,0.009

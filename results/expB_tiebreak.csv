@@ -1,0 +1,10 @@
+case,tie_break,expanded,generated,cost,elapsed_ms
+Q1-official,h,14,17,6.0,0.02
+Q1-official,g,14,17,6.0,0.02
+Q1-official,fifo,14,16,6.0,0.019
+Q2-official,h,9,16,7.0,0.016
+Q2-official,g,9,16,7.0,0.016
+Q2-official,fifo,11,19,7.0,0.019
+Q1-big25,h,491,615,-1,0.925
+Q1-big25,g,491,615,-1,0.9
+Q1-big25,fifo,491,510,-1,0.812

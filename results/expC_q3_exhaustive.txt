@@ -1,0 +1,1 @@
+combos=64 mm_nodes=15 ab_min=11 ab_max=15 ab_mean=13.50

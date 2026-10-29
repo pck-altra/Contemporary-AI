@@ -1,0 +1,13 @@
+n,heuristic,expanded,generated,solvable,elapsed_ms
+7,zero,44,44,True,0.057
+7,manhattan,14,25,True,0.024
+7,perfect,13,24,True,0.072
+15,zero,197,197,True,0.282
+15,manhattan,29,56,True,0.067
+15,perfect,29,56,True,0.278
+25,zero,514,514,True,0.723
+25,manhattan,58,107,True,0.111
+25,perfect,49,97,True,0.657
+31,zero,768,768,True,1.099
+31,manhattan,149,241,True,0.287
+31,perfect,61,122,True,0.981
