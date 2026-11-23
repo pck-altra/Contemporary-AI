@@ -18,3 +18,11 @@ __pycache__/
 # 大型临时输出
 *.log
 .ipynb_checkpoints/
+
+# CIFAR-10 data and local report previews
+data/
+tmp/
+.venv/
+
+# Experiment training logs
+!results/*.log

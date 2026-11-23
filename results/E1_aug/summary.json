@@ -1,0 +1,76 @@
+{
+  "name": "E1_aug",
+  "recipe": {
+    "residual": false,
+    "se": false,
+    "aug": true,
+    "smoothing": 0.0,
+    "mixup": 0.0
+  },
+  "args": {
+    "runs": [
+      "E0_plain",
+      "E1_aug",
+      "E2_residual",
+      "E3_se",
+      "E4_smooth",
+      "E5_mixup"
+    ],
+    "epochs": 24,
+    "batch_size": 256,
+    "seed": 2026,
+    "device": "mps",
+    "lr": 0.003,
+    "patience": 8,
+    "suffix": "",
+    "benchmark": false,
+    "force": false
+  },
+  "mean": [
+    0.49151359443082787,
+    0.48231470971200985,
+    0.44681383799700436
+  ],
+  "std": [
+    0.2470509270149203,
+    0.24347971893365924,
+    0.26150950634265135
+  ],
+  "device": "mps",
+  "python": "3.12.9",
+  "torch": "2.5.1",
+  "platform": "macOS-15.5-arm64-arm-64bit",
+  "parameters": 492010,
+  "split_sha256": "e46904d54280b56a7c28fbdd542737a7cbf21a836d05f7f926644d6902929ea1",
+  "train_size": 45000,
+  "val_size": 5000,
+  "train_per_class": [
+    4500,
+    4500,
+    4500,
+    4500,
+    4500,
+    4500,
+    4500,
+    4500,
+    4500,
+    4500
+  ],
+  "val_per_class": [
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500
+  ],
+  "determinism": "Seeded RNG; accelerator kernels may be nondeterministic; not a cross-device bitwise guarantee.",
+  "best_val_acc": 0.8766,
+  "best_epoch": 24,
+  "epochs_ran": 24,
+  "total_seconds": 130.1307778750197
+}

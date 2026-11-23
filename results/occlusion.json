@@ -1,0 +1,24 @@
+{
+  "model": "E4_smooth_long60",
+  "n": 100,
+  "selection": "first 10 official test indices per true class; selected before viewing outcomes",
+  "mask": "25% pixels set to training channel mean (zero after standardization)",
+  "target": "original predicted-class probability, fixed after occlusion",
+  "mean_probability_drop": {
+    "high": 0.5239131450653076,
+    "low": 0.10436227917671204,
+    "random": 0.6079701781272888
+  },
+  "median_probability_drop": {
+    "high": 0.6177740693092346,
+    "low": 0.01888108253479004,
+    "random": 0.7667458653450012
+  },
+  "high_minus_random_mean": -0.08405705541372299,
+  "high_minus_random_bootstrap95": [
+    -0.17739282473921775,
+    0.00755906624253832
+  ],
+  "high_exceeds_random_fraction": 0.37,
+  "limitations": "Small balanced sample; masks can be out of distribution; bootstrap does not cover training randomness or prove causality."
+}

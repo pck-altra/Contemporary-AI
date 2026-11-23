@@ -1,0 +1,6 @@
+{
+  "train_unique_images": 45000,
+  "val_unique_images": 5000,
+  "train_val_exact_duplicate_hashes": 0,
+  "policy": "Index-disjoint stratified split; no claim of semantic or near-duplicate disjointness."
+}

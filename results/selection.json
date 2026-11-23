@@ -1,0 +1,24 @@
+{
+  "criterion": "maximum validation accuracy; lexical name tie break",
+  "selected": "E4_smooth_long60",
+  "val_accuracy": 0.8958,
+  "candidates": {
+    "E0_plain": 0.824,
+    "E1_aug": 0.8766,
+    "E2_residual": 0.8782,
+    "E3_se": 0.877,
+    "E4_smooth": 0.882,
+    "E4_smooth_long60": 0.8958,
+    "E5_mixup": 0.8806
+  },
+  "checkpoint_sha256": {
+    "E0_plain": "d0fa17f4fea667a001380f400a651153599b95847e15f5856ace0b989e26319c",
+    "E1_aug": "096d0958840214a15d4b6e5e12227bcd229da770a3f0b8393bdc4fe7ea02c39a",
+    "E2_residual": "6d3dced23cef1ea2e179947da88b7bca8e5f25fb3255b7286e879baf2edbb2f0",
+    "E3_se": "d16ae22476887edeecbb6b6ec8ccdd2adf73573763dc71574598d6da4f5ee228",
+    "E4_smooth": "11d92aa4680e985b85cf65143b21cb996acf609c496b7c85ca8b9594b7ad1e66",
+    "E4_smooth_long60": "a9d70b759abdca7e9c2b2dfa84d1eae3a6e93352e4d7c612d68ea52cbb16737c",
+    "E5_mixup": "00547de1cb69a8fe21f7d6136f1dc7e6ae4ec252dae1e3e69d0fc8dce7ad2183"
+  },
+  "test_policy": "No model or hyperparameter changes after opening test results."
+}
